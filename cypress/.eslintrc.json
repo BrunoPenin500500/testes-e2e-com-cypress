@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "plugin:cypress/recommended"
+    ],
+    "rules": {
+        "cypress/no-force": "error",
+        "cypress/assertion-before-screenshoot": "off",
+        "cypress/no-pause": "error"
+    }
+}
